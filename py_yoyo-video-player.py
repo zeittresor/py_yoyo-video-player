@@ -22,7 +22,7 @@ def selectvid():
 
 select_button = tk.Button(root, text="Select video...", command=selectvid)
 select_button.pack(pady=10)
-play_button = tk.Button(root, text="Abspielen", state=tk.DISABLED, command=root.destroy)
+play_button = tk.Button(root, text="Play video", state=tk.DISABLED, command=root.destroy) # Press ESC to exit
 play_button.pack()
 
 root.mainloop()
